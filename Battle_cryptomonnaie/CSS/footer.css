@@ -1,0 +1,96 @@
+/* Styles  du footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 30px 0;
+    color: rgb(21, 21, 100);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Styles des sections du footer */
+  .footer-contact,
+  .footer-menu,
+  .footer-categories,
+  .footer-newsletter,
+  .footer-social {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li a {
+    color: rgb(21, 21, 100);
+    text-decoration: none;
+  }
+  
+  /* Styles du footer */
+  .footer-bottom {
+    background-color: #ddd;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom-left,
+  .footer-bottom-right {
+    width: 50%;
+  }
+  
+  .footer-bottom-right ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-bottom-right ul li {
+    margin-left: 15px;
+  }
+  
+  /* Styles supplémentaires (optionnels) */
+  
+  .container::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(21, 21, 100);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(21, 21, 100);
+  }

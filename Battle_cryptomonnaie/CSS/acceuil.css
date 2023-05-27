@@ -1,0 +1,176 @@
+/* tableau de bord */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(21, 21, 100);
+  }
+
+  .header {
+    background-color: rgb(21, 21, 100);
+    padding: 20px;
+    color: #fff;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .menu {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .menu ul li a:hover {
+    border-bottom-color: #333;
+  }
+
+  .content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .buttons {
+    margin-top: 20px;
+    text-align: right;
+  }
+
+  .buttons button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .buttons button:last-child {
+    margin-right: 0;
+  }
+
+  /* footer */
+  /* Styles  du footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 30px 0;
+    color: rgb(21, 21, 100);
+  }
+  
+  .container_footer {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Styles des sections du footer */
+  .footer-contact,
+  .footer-menu,
+  .footer-categories,
+  .footer-newsletter,
+  .footer-social {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li a {
+    color: rgb(21, 21, 100);
+    text-decoration: none;
+  }
+  
+  /* Styles du footer */
+  .footer-bottom {
+    background-color: #ddd;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom-left,
+  .footer-bottom-right {
+    width: 50%;
+  }
+  
+  .footer-bottom-right ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-bottom-right ul li {
+    margin-left: 15px;
+  }
+  
+  /* Styles supplémentaires (optionnels) */
+  
+  .container::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(21, 21, 100);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(21, 21, 100);
+  }
